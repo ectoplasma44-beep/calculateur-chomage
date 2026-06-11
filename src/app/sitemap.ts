@@ -8,6 +8,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
+      url: 'https://www.monchomage.fr/rupture-conventionnelle',
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.monchomage.fr/fin-de-cdd',
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.monchomage.fr/licenciement-economique',
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.monchomage.fr/salaire-journalier-reference',
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.monchomage.fr/duree-indemnisation',
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: 'https://www.monchomage.fr/comprendre-assurance-chomage',
       changeFrequency: 'weekly',
       priority: 0.8,

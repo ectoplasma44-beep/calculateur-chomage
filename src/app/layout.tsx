@@ -28,6 +28,14 @@ export const metadata: Metadata = {
   },
 };
 
+const NAV_SITUATIONS = [
+  { href: "/rupture-conventionnelle", label: "Rupture conventionnelle" },
+  { href: "/fin-de-cdd", label: "Fin de CDD" },
+  { href: "/licenciement-economique", label: "Licenciement éco." },
+  { href: "/salaire-journalier-reference", label: "SJR" },
+  { href: "/duree-indemnisation", label: "Durée" },
+];
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -39,16 +47,98 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-slate-50 text-slate-900">
+        <header className="border-b border-slate-200 bg-white">
+          <div className="mx-auto w-full max-w-4xl px-4 sm:px-6">
+            <div className="flex h-14 items-center justify-between gap-4">
+              <Link
+                href="/"
+                className="shrink-0 text-lg font-bold text-blue-700 hover:text-blue-800"
+              >
+                MonCh&ocirc;mage.fr
+              </Link>
+              <nav
+                aria-label="Navigation principale"
+                className="hidden items-center gap-1 overflow-x-auto sm:flex"
+              >
+                {NAV_SITUATIONS.map(({ href, label }) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    className="whitespace-nowrap rounded-md px-3 py-1.5 text-sm text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                  >
+                    {label}
+                  </Link>
+                ))}
+              </nav>
+            </div>
+            {/* Navigation mobile */}
+            <nav
+              aria-label="Navigation situations"
+              className="flex gap-2 overflow-x-auto pb-2 pt-1 sm:hidden"
+            >
+              {NAV_SITUATIONS.map(({ href, label }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="whitespace-nowrap rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-600 hover:border-blue-300 hover:text-blue-700"
+                >
+                  {label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+        </header>
+
         <div className="flex-1">{children}</div>
+
         <footer className="border-t border-slate-200 bg-white">
           <div className="mx-auto w-full max-w-4xl px-4 py-8 sm:px-6">
             <p className="text-sm text-slate-600">
               &copy; 2026 MonChomage.fr &mdash; Outil ind&eacute;pendant, non affili&eacute;
               &agrave; France Travail
             </p>
-            <nav aria-label="Liens de pied de page" className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+            <nav
+              aria-label="Liens de pied de page"
+              className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-sm"
+            >
               <Link href="/" className="text-slate-600 hover:text-blue-700 hover:underline">
                 Accueil
+              </Link>
+              <Link
+                href="/rupture-conventionnelle"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                Rupture conventionnelle
+              </Link>
+              <Link
+                href="/fin-de-cdd"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                Fin de CDD
+              </Link>
+              <Link
+                href="/licenciement-economique"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                Licenciement &eacute;conomique
+              </Link>
+              <Link
+                href="/salaire-journalier-reference"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                SJR
+              </Link>
+              <Link
+                href="/duree-indemnisation"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                Dur&eacute;e
+              </Link>
+              <Link
+                href="/comprendre-assurance-chomage"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                Guide
               </Link>
               <Link
                 href="/methodologie"
