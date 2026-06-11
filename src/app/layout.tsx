@@ -29,11 +29,16 @@ export const metadata: Metadata = {
 };
 
 const NAV_SITUATIONS = [
-  { href: "/rupture-conventionnelle", label: "Rupture conventionnelle" },
+  { href: "/rupture-conventionnelle", label: "Rupture conv." },
   { href: "/fin-de-cdd", label: "Fin de CDD" },
   { href: "/licenciement-economique", label: "Licenciement éco." },
   { href: "/salaire-journalier-reference", label: "SJR" },
   { href: "/duree-indemnisation", label: "Durée" },
+  { href: "/demission-legitime", label: "Démission" },
+  { href: "/abandon-de-poste", label: "Abandon poste" },
+  { href: "/cumul-emploi-chomage", label: "Cumul emploi" },
+  { href: "/degressivite-chomage", label: "Dégressivité" },
+  { href: "/chomage-seniors", label: "Seniors" },
 ];
 
 export default function RootLayout({
@@ -49,29 +54,30 @@ export default function RootLayout({
       <body className="flex min-h-full flex-col bg-slate-50 text-slate-900">
         <header className="border-b border-slate-200 bg-white">
           <div className="mx-auto w-full max-w-4xl px-4 sm:px-6">
-            <div className="flex h-14 items-center justify-between gap-4">
+            <div className="flex h-14 items-center">
               <Link
                 href="/"
                 className="shrink-0 text-lg font-bold text-blue-700 hover:text-blue-800"
               >
                 MonCh&ocirc;mage.fr
               </Link>
-              <nav
-                aria-label="Navigation principale"
-                className="hidden items-center gap-1 overflow-x-auto sm:flex"
-              >
-                {NAV_SITUATIONS.map(({ href, label }) => (
-                  <Link
-                    key={href}
-                    href={href}
-                    className="whitespace-nowrap rounded-md px-3 py-1.5 text-sm text-slate-600 hover:bg-slate-100 hover:text-slate-900"
-                  >
-                    {label}
-                  </Link>
-                ))}
-              </nav>
             </div>
-            {/* Navigation mobile */}
+            {/* Navigation desktop — deux rangées wrappées */}
+            <nav
+              aria-label="Navigation principale"
+              className="hidden flex-wrap gap-x-0.5 gap-y-0.5 pb-2 sm:flex"
+            >
+              {NAV_SITUATIONS.map(({ href, label }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="whitespace-nowrap rounded-md px-3 py-1.5 text-sm text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                >
+                  {label}
+                </Link>
+              ))}
+            </nav>
+            {/* Navigation mobile — chips défilantes */}
             <nav
               aria-label="Navigation situations"
               className="flex gap-2 overflow-x-auto pb-2 pt-1 sm:hidden"
@@ -133,6 +139,36 @@ export default function RootLayout({
                 className="text-slate-600 hover:text-blue-700 hover:underline"
               >
                 Dur&eacute;e
+              </Link>
+              <Link
+                href="/demission-legitime"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                D&eacute;mission l&eacute;gitime
+              </Link>
+              <Link
+                href="/abandon-de-poste"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                Abandon de poste
+              </Link>
+              <Link
+                href="/cumul-emploi-chomage"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                Cumul emploi-ch&ocirc;mage
+              </Link>
+              <Link
+                href="/degressivite-chomage"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                D&eacute;gressivit&eacute;
+              </Link>
+              <Link
+                href="/chomage-seniors"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                S&eacute;niors
               </Link>
               <Link
                 href="/comprendre-assurance-chomage"

@@ -33,6 +33,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: 'https://www.monchomage.fr/demission-legitime',
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.monchomage.fr/abandon-de-poste',
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.monchomage.fr/cumul-emploi-chomage',
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.monchomage.fr/degressivite-chomage',
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.monchomage.fr/chomage-seniors',
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: 'https://www.monchomage.fr/comprendre-assurance-chomage',
       changeFrequency: 'weekly',
       priority: 0.8,
