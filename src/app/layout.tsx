@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     type: "website",
   },
+  verification: {
+    google: '0Z4NtRZGMnC22NicEvHD8POc65IiD76qEzB2vdlImH8',
+  },
 };
 
 const NAV_SITUATIONS = [
