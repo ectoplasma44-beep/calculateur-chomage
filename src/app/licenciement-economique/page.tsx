@@ -90,7 +90,14 @@ export default function LicenciementEconomique() {
         {' '}&rsaquo;{' '}Licenciement &eacute;conomique et ch&ocirc;mage
       </nav>
 
-      <div className="mt-4 rounded-lg border border-blue-200 bg-blue-50 px-4 py-3 text-sm text-blue-800">
+      <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+        Vous avez 55 ans et plus&nbsp;?{' '}
+        <Link href="/licenciement-economique-senior" className="font-semibold underline hover:text-amber-900">
+          Voir les droits ARE senior (36 mois) et impact retraite&nbsp;&rarr;
+        </Link>
+      </div>
+
+      <div className="mt-3 rounded-lg border border-blue-200 bg-blue-50 px-4 py-3 text-sm text-blue-800">
         Vous &ecirc;tes cadre&nbsp;?{' '}
         <Link href="/licenciement-economique-cadre" className="font-semibold underline hover:text-blue-900">
           Voir les sp&eacute;cificit&eacute;s cadre&nbsp;&rarr;
