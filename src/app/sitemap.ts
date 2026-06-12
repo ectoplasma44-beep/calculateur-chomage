@@ -78,6 +78,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.3,
     },
+    {
+      url: 'https://www.monchomage.fr/demission-reconversion-cpf',
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.monchomage.fr/licenciement-faute',
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.monchomage.fr/temps-partiel',
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.monchomage.fr/delai-carence-chomage',
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.monchomage.fr/chomage-net-brut',
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
     ...SALAIRES_CONFIG.map((s) => ({
       url: `https://www.monchomage.fr/chomage-salaire-${s.slug}-euros`,
       lastModified: new Date(),

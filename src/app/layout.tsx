@@ -42,6 +42,11 @@ const NAV_SITUATIONS = [
   { href: "/cumul-emploi-chomage", label: "Cumul emploi" },
   { href: "/degressivite-chomage", label: "Dégressivité" },
   { href: "/chomage-seniors", label: "Seniors" },
+  { href: "/demission-reconversion-cpf", label: "Reconversion" },
+  { href: "/licenciement-faute", label: "Faute" },
+  { href: "/temps-partiel", label: "Temps partiel" },
+  { href: "/delai-carence-chomage", label: "Carence" },
+  { href: "/chomage-net-brut", label: "Net/Brut" },
 ];
 
 export default function RootLayout({
