@@ -96,6 +96,13 @@ export default function RuptureConventionnelle() {
         {' '}&rsaquo;{' '}Rupture conventionnelle et ch&ocirc;mage
       </nav>
 
+      <div className="mt-4 rounded-lg border border-blue-200 bg-blue-50 px-4 py-3 text-sm text-blue-800">
+        Vous &ecirc;tes cadre&nbsp;?{' '}
+        <Link href="/rupture-conventionnelle-cadre" className="font-semibold underline hover:text-blue-900">
+          Voir les sp&eacute;cificit&eacute;s cadre&nbsp;&rarr;
+        </Link>
+      </div>
+
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         Ch&ocirc;mage apr&egrave;s Rupture Conventionnelle&nbsp;: Calcul de l&apos;ARE 2026
       </h1>
