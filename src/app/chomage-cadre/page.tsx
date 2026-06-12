@@ -152,7 +152,11 @@ export default function ChomageCADRE() {
               <strong>Perte involontaire d&apos;emploi</strong> (licenciement, rupture conventionnelle,
               fin de CDD, d&eacute;mission pour motif l&eacute;gitime).{' '}
               <Link href="/rupture-conventionnelle-cadre" className="text-blue-700 underline hover:text-blue-900">
-                Sp&eacute;cificit&eacute;s de la rupture conventionnelle cadre &rarr;
+                Rupture conventionnelle cadre &rarr;
+              </Link>
+              {' '}&mdash;{' '}
+              <Link href="/licenciement-economique-cadre" className="text-blue-700 underline hover:text-blue-900">
+                Licenciement &eacute;conomique cadre &rarr;
               </Link>
             </li>
             <li>

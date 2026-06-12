@@ -59,6 +59,11 @@ export const ARE_PARAMS = {
   // ── ARE Formation (AREF) ────────────────────────────────────────────
   allocationMinimaAREF: 22.99, // €/jour — depuis 01/07/2025
 
+  // ── Différé spécifique (franchise indemnités) — plafonds par motif ──
+  // Source : Unédic — Règlement d'assurance chômage
+  franchiseMaxRC: 150,                  // jours — rupture conventionnelle & autres motifs
+  franchiseMaxLicenciementEco: 75,      // jours — licenciement économique (mesure favorable)
+
 } as const
 
 export type AreParamsType = typeof ARE_PARAMS
