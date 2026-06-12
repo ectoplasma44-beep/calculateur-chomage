@@ -19,10 +19,20 @@ const LIBELLES_FORMULES: Record<ResultatARE['formuleRetenue'], string> = {
 const MOIS_AVANT_DEGRESSIVITE =
   Math.floor(ARE_PARAMS.joursAvantDegressivite / ARE_PARAMS.joursParMois) + 1
 
-export default function CalculateurARE() {
-  const [salaire, setSalaire] = useState('2500')
-  const [mois, setMois] = useState('24')
-  const [age, setAge] = useState('35')
+interface CalculateurAREProps {
+  defaultSalaire?: number
+  defaultMois?: number
+  defaultAge?: number
+}
+
+export default function CalculateurARE({
+  defaultSalaire,
+  defaultMois,
+  defaultAge,
+}: CalculateurAREProps = {}) {
+  const [salaire, setSalaire] = useState(defaultSalaire !== undefined ? String(defaultSalaire) : '2500')
+  const [mois, setMois] = useState(defaultMois !== undefined ? String(defaultMois) : '24')
+  const [age, setAge] = useState(defaultAge !== undefined ? String(defaultAge) : '35')
 
   const salaireNum = parseFloat(salaire)
   const moisNum = parseInt(mois, 10)

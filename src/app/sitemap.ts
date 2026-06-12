@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next'
+import { SALAIRES_CONFIG } from '@/lib/salaires-data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -77,5 +78,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.3,
     },
+    ...SALAIRES_CONFIG.map((s) => ({
+      url: `https://www.monchomage.fr/chomage-salaire-${s.slug}-euros`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    })),
   ]
 }
