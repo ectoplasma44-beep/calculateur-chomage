@@ -95,6 +95,13 @@ export default function FinDeCDD() {
         </Link>
       </div>
 
+      <div className="mt-3 rounded-lg border border-purple-200 bg-purple-50 px-4 py-3 text-sm text-purple-800">
+        Vous &ecirc;tes alternant ou apprenti&nbsp;?{' '}
+        <Link href="/chomage-alternant-apprenti" className="font-semibold underline hover:text-purple-900">
+          Voir les droits ARE pour les alternants&nbsp;&rarr;
+        </Link>
+      </div>
+
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         Ch&ocirc;mage apr&egrave;s Fin de CDD&nbsp;: Vos Droits et le Calcul de l&apos;ARE 2026
       </h1>
