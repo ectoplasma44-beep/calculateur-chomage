@@ -52,9 +52,11 @@ export const ARE_PARAMS = {
   // ── Durée d'indemnisation ───────────────────────────────────────────
   // Règle : 1 jour cotisé = 1 jour indemnisé
   // ⚠️ Valeurs Unédic doc jan 2026 — à vérifier sur France Travail (réformes en cours)
-  dureeMinJours: 182,             // 6 mois minimum d'affiliation requis
-  dureeMaxMoins50ansJours: 365,   // 12 mois max (< 50 ans)
-  dureeMax50ansEtPlusJours: 730,  // 24 mois max (50 ans et plus)
+  dureeMinJours: 182,               // 6 mois minimum d'affiliation requis
+  dureeMaxMoins50ansJours: 365,    // 12 mois max (< 50 ans)
+  dureeMax50ansEtPlusJours: 730,   // 24 mois max (50 ans et plus)
+  dureeMax53a54ansJours: 900,      // 30 mois max (53 et 54 ans)
+  dureeMax55ansEtPlusJours: 1080,  // 36 mois max (55 ans et plus)
 
   // ── ARE Formation (AREF) ────────────────────────────────────────────
   allocationMinimaAREF: 22.99, // €/jour — depuis 01/07/2025

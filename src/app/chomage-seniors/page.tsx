@@ -370,6 +370,9 @@ export default function ChomagesSeniors() {
           <Link href="/rupture-conventionnelle" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
             Rupture conventionnelle
           </Link>
+          <Link href="/rupture-conventionnelle-senior" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            RC senior
+          </Link>
           <Link href="/" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
             Calculateur ARE
           </Link>

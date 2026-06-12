@@ -103,6 +103,13 @@ export default function RuptureConventionnelle() {
         </Link>
       </div>
 
+      <div className="mt-3 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+        Vous avez 55 ans et plus&nbsp;?{' '}
+        <Link href="/rupture-conventionnelle-senior" className="font-semibold underline hover:text-amber-900">
+          Voir les droits ARE senior et l&apos;impact retraite&nbsp;&rarr;
+        </Link>
+      </div>
+
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         Ch&ocirc;mage apr&egrave;s Rupture Conventionnelle&nbsp;: Calcul de l&apos;ARE 2026
       </h1>
