@@ -355,6 +355,15 @@ export default function DureeIndemnisation() {
         </div>
       </section>
 
+      <div className="mt-10 rounded-xl border border-purple-200 bg-purple-50 px-5 py-4 text-sm text-purple-800">
+        <strong>Droits all&ocirc;ng&eacute;s RQTH&nbsp;:</strong> les b&eacute;n&eacute;ficiaires de la
+        Reconnaissance de la Qualit&eacute; de Travailleur Handicap&eacute; (RQTH) ont droit &agrave;
+        une dur&eacute;e d&apos;ARE major&eacute;e de 25&nbsp;%, dans la limite de 36&nbsp;mois.{' '}
+        <Link href="/chomage-rqth" className="font-semibold underline hover:text-purple-900">
+          En savoir plus sur le ch&ocirc;mage RQTH&nbsp;&rarr;
+        </Link>
+      </div>
+
       <nav className="mt-12 border-t border-slate-200 pt-6">
         <p className="mb-3 text-sm font-medium text-slate-600">Pages li&eacute;es</p>
         <div className="flex flex-wrap gap-3">

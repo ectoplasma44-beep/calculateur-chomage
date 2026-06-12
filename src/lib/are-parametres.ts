@@ -58,6 +58,11 @@ export const ARE_PARAMS = {
   dureeMax53a54ansJours: 900,      // 30 mois max (53 et 54 ans)
   dureeMax55ansEtPlusJours: 1080,  // 36 mois max (55 ans et plus)
 
+  // ── RQTH — Reconnaissance Qualité Travailleur Handicapé ────────────
+  // Durée allongée : +25% sur la durée calculée (R.5212-1 et suivants)
+  // Plafond : 36 mois pour les moins de 53 ans avec RQTH
+  tauxAllongementRQTH: 1.25, // multiplicateur durée ARE pour les bénéficiaires RQTH
+
   // ── ARE Formation (AREF) ────────────────────────────────────────────
   allocationMinimaAREF: 22.99, // €/jour — depuis 01/07/2025
 
