@@ -110,6 +110,13 @@ export default function RuptureConventionnelle() {
         </Link>
       </div>
 
+      <div className="mt-3 rounded-lg border border-pink-200 bg-pink-50 px-4 py-3 text-sm text-pink-800">
+        En cong&eacute; parental&nbsp;?{' '}
+        <Link href="/rupture-conventionnelle-conge-parental" className="font-semibold underline hover:text-pink-900">
+          Voir la neutralisation du cong&eacute; parental dans le calcul ARE&nbsp;&rarr;
+        </Link>
+      </div>
+
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         Ch&ocirc;mage apr&egrave;s Rupture Conventionnelle&nbsp;: Calcul de l&apos;ARE 2026
       </h1>
