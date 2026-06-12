@@ -218,6 +218,7 @@ export default function PageDemissionReconversion() {
             <a href="/demission-legitime" className="text-blue-600 hover:underline">Démission légitime</a>
             <a href="/rupture-conventionnelle" className="text-blue-600 hover:underline">Rupture conventionnelle</a>
             <a href="/" className="text-blue-600 hover:underline">Calculateur ARE</a>
+            <a href="/chomage-fonctionnaire-reconversion" className="text-blue-600 hover:underline">Fonctionnaire en reconversion</a>
           </div>
         </div>
       </main>
