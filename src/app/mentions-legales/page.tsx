@@ -58,13 +58,14 @@ export default function MentionsLegales() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-slate-900">Cookies</h2>
+          <h2 className="text-xl font-semibold text-slate-900">Cookies et publicit&eacute;</h2>
           <p className="mt-2">
-            Le site ne d&eacute;pose <strong>aucun cookie</strong> de suivi, de publicit&eacute; ou
-            de mesure d&apos;audience. Si un outil de mesure d&apos;audience (tel que Google
-            Analytics) venait &agrave; &ecirc;tre install&eacute;, un bandeau de consentement
-            conforme aux recommandations de la CNIL serait mis en place au pr&eacute;alable et
-            cette page serait mise &agrave; jour en cons&eacute;quence.
+            Ce site utilise <strong>Google AdSense</strong> pour diffuser des annonces publicitaires.
+            Google AdSense d&eacute;pose des cookies afin de personnaliser les annonces affich&eacute;es
+            en fonction de vos visites ant&eacute;rieures. Votre consentement est recueilli via notre
+            banni&egrave;re de cookies conform&eacute;ment aux recommandations de la CNIL. Vous pouvez
+            &agrave; tout moment refuser les cookies publicitaires ou en savoir plus sur notre{' '}
+            <a href="/politique-confidentialite" className="text-blue-700 underline">politique de confidentialit&eacute;</a>.
           </p>
         </section>
 

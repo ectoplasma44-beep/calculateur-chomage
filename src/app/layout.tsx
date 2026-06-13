@@ -197,6 +197,12 @@ export default function RootLayout({
                 Mentions l&eacute;gales
               </Link>
               <Link
+                href="/politique-confidentialite"
+                className="text-slate-600 hover:text-blue-700 hover:underline"
+              >
+                Confidentialit&eacute;
+              </Link>
+              <Link
                 href="/a-propos"
                 className="text-slate-600 hover:text-blue-700 hover:underline"
               >
