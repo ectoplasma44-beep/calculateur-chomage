@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage apres conge maternite 2025 : calcul ARE et droits",
-  description: "Au chomage apres un conge maternite ? Calcul SJR neutralise, droits ARE et demarches 2025. Guide complet avec exemples chiffres.",
+  title: "Chomage apres conge maternite 2025 : SJR neutralise",
+  description: "Au chomage apres un conge maternite ? Votre SJR est calcule sans la periode de conge — souvent plus favorable. Exemple chiffre.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-apres-conge-maternite' },
 }
 

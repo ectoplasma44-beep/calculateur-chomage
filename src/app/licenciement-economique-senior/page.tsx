@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Licenciement economique senior 2025 : ARE 36 mois et droits",
-  description: "Senior licencie pour motif economique apres 55 ans ? ARE jusqu'a 36 mois, conge de reclassement et impact retraite 2025.",
+  title: "Licenciement eco senior 2025 : 36 mois d'ARE et PSE",
+  description: "Senior licencie pour motif economique ? Droits ARE allonges, conge de reclassement et protections PSE renforcees expliques avec exemples.",
   alternates: { canonical: 'https://www.monchomage.fr/licenciement-economique-senior' },
 }
 

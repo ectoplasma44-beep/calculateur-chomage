@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Rupture conventionnelle senior 2025 : ARE et retraite apres 55 ans",
-  description: "Senior en rupture conventionnelle apres 55 ans ? Droits ARE allonges, cumul retraite et impact pension 2025. Exemples chiffres.",
+  title: "RC senior 55 ans 2025 : ARE 36 mois et impact retraite",
+  description: "Rupture conventionnelle apres 55 ans ? ARE jusqu'a 36 mois, trimestres retraite et arbitrage RC vs maintien poste. Simulez votre cas.",
   alternates: { canonical: 'https://www.monchomage.fr/rupture-conventionnelle-senior' },
 }
 

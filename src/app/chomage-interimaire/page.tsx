@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage interimaire 2025 : calcul ARE et droits apres mission",
-  description: "Interimaire au chomage apres une mission ? Calcul ARE, SJR sur missions effectives, regles Annexe 4 et droits 2025 expliques avec exemples chiffres.",
+  title: "Chomage interimaire 2025 : calcul ARE apres mission",
+  description: "Fin de mission d'interim ? Votre ARE calculee sur vos missions effectives + primes de precarite. Exemple complet avec montants.",
   alternates: {
     canonical: 'https://www.monchomage.fr/chomage-interimaire',
   },

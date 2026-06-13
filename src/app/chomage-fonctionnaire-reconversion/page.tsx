@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage fonctionnaire demission reconversion 2025 : ARE et droits",
-  description: "Fonctionnaire qui demissionne pour une reconversion ? Conditions ARE, CPF et droits 2025. Guide complet avec exemples chiffres.",
+  title: "Fonctionnaire demissionnaire : l'ARE est possible en 2025",
+  description: "Fonctionnaire qui demissionne pour une reconversion ? Conditions ARE, dossier a deposer et droits CPF expliques etape par etape.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-fonctionnaire-reconversion' },
 }
 

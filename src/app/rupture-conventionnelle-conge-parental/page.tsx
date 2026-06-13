@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Rupture conventionnelle conge parental 2025 : ARE et droits",
-  description: "Rupture conventionnelle pendant ou apres un conge parental ? Calcul ARE, SJR neutralise et droits 2025. Exemples chiffres.",
+  title: "RC pendant conge parental 2025 : ARE et SJR neutralise",
+  description: "Rupture conventionnelle pendant ou apres un conge parental ? SJR neutralise, franchise recalculee. Ce que votre employeur ne vous dit pas.",
   alternates: { canonical: 'https://www.monchomage.fr/rupture-conventionnelle-conge-parental' },
 }
 

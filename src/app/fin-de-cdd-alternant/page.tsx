@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Fin de contrat alternance chomage 2025 : ARE et demarches",
-  description: "Contrat d'alternance termine ? Calcul ARE, demarches Pole Emploi et droits 2025. Guide complet avec exemples chiffres pour alternants.",
+  title: "Fin d'alternance 2025 : vos droits ARE en detail",
+  description: "Contrat d'alternance termine ? Montant ARE, duree selon anciennete et demarches Pole Emploi. Droits souvent ignores des alternants.",
   alternates: { canonical: 'https://www.monchomage.fr/fin-de-cdd-alternant' },
 }
 

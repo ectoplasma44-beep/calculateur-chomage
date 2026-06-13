@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import CalculateurARE from '@/components/CalculateurARE'
 
 export const metadata: Metadata = {
-  title: "Chômage après Licenciement pour Faute 2026 — Faute Simple vs Lourde",
-  description: "Licenciement pour faute et chômage : faute simple ouvre droit à l'ARE, faute grave et lourde aussi. Conditions, indemnités et calcul ARE 2026.",
+  title: "Licenciement faute grave 2025 : perdez-vous vraiment l'ARE ?",
+  description: "Licencie pour faute grave ou lourde ? Conditions ARE, perte des indemnites et recours aux prud'hommes expliques clairement.",
   alternates: { canonical: "https://www.monchomage.fr/licenciement-faute" },
 }
 

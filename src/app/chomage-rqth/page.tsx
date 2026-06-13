@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage RQTH 2025 : droits allonges et specificites travailleur handicape",
-  description: "Travailleur handicape (RQTH) au chomage ? Duree ARE allongee, aides specifiques et calcul 2025. Guide complet avec exemples chiffres.",
+  title: "Chomage RQTH 2025 : +25 % de duree, comment en profiter",
+  description: "Travailleur handicape au chomage ? Duree ARE allongee, cumul AAH et aides AGEFIPH expliques avec exemples chiffres 2025.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-rqth' },
 }
 

@@ -5,9 +5,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros, pourcent, dateFr } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'Chômage après Rupture Conventionnelle 2026 — Calculez votre ARE',
-  description:
-    "Calculez votre allocation chômage après une rupture conventionnelle. Conditions, délai de carence, montant ARE et durée d'indemnisation. Formules officielles Unédic 2026.",
+  title: "Rupture conventionnelle 2025 : calcul ARE et delai de carence",
+  description: "Combien touchez-vous en ARE apres une rupture conventionnelle ? Calcul SJR, franchise et 1er versement. Simulateur + exemple chiffre.",
   alternates: {
     canonical: 'https://www.monchomage.fr/rupture-conventionnelle',
   },

@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Fin CDD RQTH chomage 2025 : duree allongee et droits",
-  description: "Travailleur handicape (RQTH) en fin de CDD ? Calcul ARE, duree allongee et aides 2025. Exemples chiffres.",
+  title: "Fin de CDD RQTH 2025 : duree ARE allongee automatiquement",
+  description: "CDD termine avec une RQTH ? Duree ARE allongee de 25 %, aides AGEFIPH et demarches Pole Emploi expliquees. Verifiez vos droits.",
   alternates: { canonical: 'https://www.monchomage.fr/fin-de-cdd-rqth' },
 }
 

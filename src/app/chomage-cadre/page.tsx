@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage cadre 2025 : calcul ARE, degressivite et droits",
-  description: "Cadre au chomage ? Decouvrez comment calculer votre allocation ARE, la degressivite a 7 mois et les regles specifiques aux cadres en 2025.",
+  title: "Chomage cadre 2025 : combien touchez-vous vraiment ?",
+  description: "Cadre licencie ou en RC ? Calculez votre ARE exacte : SJR, degressivite a 7 mois, plafond. Exemple chiffre pour 5 000 euros/mois.",
   alternates: {
     canonical: 'https://www.monchomage.fr/chomage-cadre',
   },

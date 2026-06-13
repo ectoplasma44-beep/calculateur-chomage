@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Rupture conventionnelle cadre 2025 : calcul ARE et indemnites",
-  description: "Cadre en rupture conventionnelle ? Calculez votre ARE, indemnite de rupture et delai de carence en 2025. Exemple chiffre pour 5000 euros brut.",
+  title: "RC cadre 2025 : ARE, franchise et delai de carence reels",
+  description: "Rupture conventionnelle en tant que cadre ? Calcul franchise sur indemnite supra-legale, delai de carence exact. Exemple pour 5 000 euros/mois.",
   alternates: {
     canonical: 'https://www.monchomage.fr/rupture-conventionnelle-cadre',
   },

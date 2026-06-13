@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Fin de mission interim chomage 2025 : calcul ARE et droits",
-  description: "Fin de mission d'interim ? Calcul ARE, SJR sur missions effectives, delai de carence et droits 2025. Exemples chiffres pour interimaires.",
+  title: "Fin de mission interim 2025 : ARE des la fin du contrat",
+  description: "Fin de mission d'interim ? ARE ouverte sans delai de carence motif. SJR calcule sur missions + primes. Montants et duree expliques.",
   alternates: { canonical: 'https://www.monchomage.fr/fin-de-cdd-interimaire' },
 }
 

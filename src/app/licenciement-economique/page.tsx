@@ -5,9 +5,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros, pourcent } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: 'Chômage après Licenciement Économique 2026 — ARE et CSP',
-  description:
-    'Vos droits au chômage après un licenciement économique : ARE classique ou Contrat de Sécurisation Professionnelle (CSP). Calcul, montants et durée 2026.',
+  title: "Licenciement economique 2025 : ARE, indemnites et PSE",
+  description: "Licencie pour motif economique ? Calcul indemnite legale, ARE et conge de reclassement expliques. Exemple chiffre selon anciennete.",
   alternates: {
     canonical: 'https://www.monchomage.fr/licenciement-economique',
   },

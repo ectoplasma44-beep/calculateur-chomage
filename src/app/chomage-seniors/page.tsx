@@ -5,8 +5,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chômage Seniors 2026 — Droits ARE à 50, 55 et 57 Ans",
-  description: "Chômage senior en 2026 : durée maximale de 24 mois, période de référence étendue à 36 mois, exonération de dégressivité à 55 ans. Guide complet et calculateur.",
+  title: "Chomage senior 2025 : jusqu'a 36 mois d'ARE apres 55 ans",
+  description: "55 ans et plus au chomage ? Duree ARE allongee, impact retraite et arbitrage RC expliques. Calculez vos droits avec exemples.",
   alternates: {
     canonical: 'https://www.monchomage.fr/chomage-seniors',
   },

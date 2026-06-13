@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage alternant apprenti 2025 : droits ARE apres alternance",
-  description: "Fin de contrat d'alternance ou d'apprentissage ? Droits ARE, conditions, calcul SJR et duree indemnisation 2025 expliques avec exemples.",
+  title: "Chomage alternant 2025 : avez-vous droit a l'ARE ?",
+  description: "Fin de contrat d'alternance ou d'apprentissage ? Conditions, montant ARE et duree expliques. Droits souvent ignores — verifiez les votres.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-alternant-apprenti' },
 }
 

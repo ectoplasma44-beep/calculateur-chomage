@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Licenciement economique cadre 2025 : ARE, indemnites et priorite reembauche",
-  description: "Cadre licencie pour motif economique ? Calcul ARE, indemnite legale, PSE et priorite de reembauche expliques avec exemples chiffres 2025.",
+  title: "Licenciement eco cadre 2025 : ARE, PSE et conge reclassement",
+  description: "Cadre licencie pour motif economique ? Indemnite legale, conge de reclassement et chronologie complete jusqu'au 1er versement ARE.",
   alternates: {
     canonical: 'https://www.monchomage.fr/licenciement-economique-cadre',
   },
