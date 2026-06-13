@@ -62,6 +62,12 @@ export default function PageLicenciementFaute() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       <main className="mx-auto max-w-3xl px-4 py-8">
+        <div className="mb-6 rounded-xl border border-blue-200 bg-blue-50 p-4 text-sm">
+          <span className="font-semibold text-blue-900">Vous etes cadre&nbsp;?</span>{' '}
+          <a href="/licenciement-faute-cadre" className="text-blue-700 underline hover:text-blue-900">
+            Voir les sp&eacute;cificit&eacute;s cadre (clause non-concurrence, indemnit&eacute;s, prud&apos;hommes) &rarr;
+          </a>
+        </div>
         <nav className="mb-4 text-sm text-gray-500">
           <a href="/" className="hover:underline">Accueil</a>
           <span className="mx-2">&rsaquo;</span>

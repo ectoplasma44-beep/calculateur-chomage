@@ -158,6 +158,10 @@ export default function ChomageCADRE() {
               <Link href="/licenciement-economique-cadre" className="text-blue-700 underline hover:text-blue-900">
                 Licenciement &eacute;conomique cadre &rarr;
               </Link>
+              {' '}&mdash;{' '}
+              <Link href="/licenciement-faute-cadre" className="text-blue-700 underline hover:text-blue-900">
+                Licenciement faute grave cadre &rarr;
+              </Link>
             </li>
             <li>
               <strong>Affiliation minimale</strong> de {ARE_PARAMS.dureeMinJours}&nbsp;jours (6&nbsp;mois)
