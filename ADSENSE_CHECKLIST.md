@@ -10,8 +10,8 @@
 ## Actions manuelles requises AVANT soumission AdSense
 
 ### 1. Remplacer les placeholders Publisher ID
-- public/ads.txt : remplacer pub-XXXXXXXXXXXXXXXX par ton vrai Publisher ID
-- src/app/layout.tsx : remplacer ca-pub-XXXXXXXXXXXXXXXX par ton vrai Publisher ID
+- public/ads.txt : remplacer pub-9904521546520967 par ton vrai Publisher ID
+- src/app/layout.tsx : remplacer ca-pub-9904521546520967 par ton vrai Publisher ID
 - Ton Publisher ID est visible sur : https://adsense.google.com/intl/fr_fr/start/
   (format : pub-1234567890123456)
 
