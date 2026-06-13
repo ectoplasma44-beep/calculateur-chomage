@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import CookieBanner from "@/components/CookieBanner";
-import AdSenseScript from "@/components/AdSenseScript";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -105,7 +105,12 @@ export default function RootLayout({
           </div>
         </header>
 
-        <AdSenseScript />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9904521546520967"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <div className="flex-1">{children}</div>
         <CookieBanner />
 
