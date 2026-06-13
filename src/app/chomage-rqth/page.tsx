@@ -366,6 +366,9 @@ export default function ChomageRQTH() {
           <Link href="/fin-de-cdd-rqth" className="rounded-lg border border-purple-300 bg-white px-6 py-3 text-sm font-semibold text-purple-700 hover:border-purple-400">
             Fin de CDD RQTH
           </Link>
+          <Link href="/chomage-seniors" className="rounded-lg border border-purple-300 bg-white px-6 py-3 text-sm font-semibold text-purple-700 hover:border-purple-400">
+            Droits all&ocirc;ng&eacute;s seniors
+          </Link>
         </div>
       </div>
     </main>

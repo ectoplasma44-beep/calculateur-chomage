@@ -91,6 +91,37 @@ export default function Home() {
       <CalculateurARE />
 
       <section className="mt-12">
+        <h2 className="text-2xl font-bold text-slate-900">Votre situation est particuli&egrave;re&nbsp;?</h2>
+        <p className="mt-2 text-slate-600">Certains profils b&eacute;n&eacute;ficient de r&egrave;gles ARE sp&eacute;cifiques. Choisissez votre situation&nbsp;:</p>
+        <div className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3">
+          <Link href="/chomage-cadre" className="flex flex-col items-center rounded-xl border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:border-blue-300 hover:shadow">
+            <span className="text-2xl">💼</span>
+            <span className="mt-2 font-semibold text-slate-800">Vous etes cadre</span>
+          </Link>
+          <Link href="/chomage-interimaire" className="flex flex-col items-center rounded-xl border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:border-blue-300 hover:shadow">
+            <span className="text-2xl">🏭</span>
+            <span className="mt-2 font-semibold text-slate-800">Vous etes int&eacute;rimaire</span>
+          </Link>
+          <Link href="/chomage-alternant-apprenti" className="flex flex-col items-center rounded-xl border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:border-blue-300 hover:shadow">
+            <span className="text-2xl">🎓</span>
+            <span className="mt-2 font-semibold text-slate-800">Vous etes alternant</span>
+          </Link>
+          <Link href="/chomage-seniors" className="flex flex-col items-center rounded-xl border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:border-blue-300 hover:shadow">
+            <span className="text-2xl">🧓</span>
+            <span className="mt-2 font-semibold text-slate-800">Vous avez 55 ans ou plus</span>
+          </Link>
+          <Link href="/chomage-rqth" className="flex flex-col items-center rounded-xl border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:border-blue-300 hover:shadow">
+            <span className="text-2xl">♿</span>
+            <span className="mt-2 font-semibold text-slate-800">Vous etes reconnu RQTH</span>
+          </Link>
+          <Link href="/chomage-fonctionnaire-reconversion" className="flex flex-col items-center rounded-xl border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:border-blue-300 hover:shadow">
+            <span className="text-2xl">🏛️</span>
+            <span className="mt-2 font-semibold text-slate-800">Vous etes fonctionnaire</span>
+          </Link>
+        </div>
+      </section>
+
+      <section className="mt-12">
         <h2 className="text-2xl font-bold text-slate-900">Comment fonctionne le calcul&nbsp;?</h2>
 
         <div className="prose-slate mt-4 space-y-4 text-slate-700">
