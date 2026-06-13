@@ -187,6 +187,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    {
+      url: 'https://www.monchomage.fr/licenciement-faute-senior',
+      lastModified: '2026-06-13',
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://www.monchomage.fr/abandon-de-poste-senior',
+      lastModified: '2026-06-13',
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://www.monchomage.fr/demission-legitime-senior',
+      lastModified: '2026-06-13',
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://www.monchomage.fr/chomage-cadre-5000-euros',
+      lastModified: '2026-06-13',
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://www.monchomage.fr/chomage-cadre-4000-euros',
+      lastModified: '2026-06-13',
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://www.monchomage.fr/chomage-interimaire-2000-euros',
+      lastModified: '2026-06-13',
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
     ...SALAIRES_CONFIG.map((s) => ({
       url: `https://www.monchomage.fr/chomage-salaire-${s.slug}-euros`,
       lastModified: new Date(),
