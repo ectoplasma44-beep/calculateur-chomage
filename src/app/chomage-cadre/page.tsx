@@ -548,6 +548,18 @@ export default function ChomageCADRE() {
           >
             D&eacute;gressivit&eacute; du ch&ocirc;mage
           </Link>
+          <Link
+            href="/chomage-cadre-5000-euros"
+            className="rounded-lg border border-blue-300 bg-white px-6 py-3 text-sm font-semibold text-blue-700 hover:border-blue-400"
+          >
+            Cadre 5&nbsp;000&nbsp;€/mois : chiffres exacts
+          </Link>
+          <Link
+            href="/chomage-cadre-4000-euros"
+            className="rounded-lg border border-blue-300 bg-white px-6 py-3 text-sm font-semibold text-blue-700 hover:border-blue-400"
+          >
+            Cadre 4&nbsp;000&nbsp;€/mois : chiffres exacts
+          </Link>
         </div>
       </div>
 
