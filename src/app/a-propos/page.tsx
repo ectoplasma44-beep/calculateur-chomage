@@ -79,6 +79,45 @@ export default function APropos() {
             signal&eacute;e.
           </p>
         </section>
+
+        <section>
+          <h2 className="text-xl font-semibold text-slate-900">Questions fr&eacute;quentes</h2>
+          <div className="mt-4 space-y-6">
+            <div>
+              <h3 className="font-semibold text-slate-900">
+                MonChomage.fr remplace-t-il France Travail pour calculer mes droits&nbsp;?
+              </h3>
+              <p className="mt-1">
+                Non. Notre simulateur produit une <strong>estimation indicative</strong> bas&eacute;e
+                sur les formules officielles Un&eacute;dic. Seul France Travail peut calculer et
+                notifier vos droits exacts &agrave; partir de vos attestations employeur, de votre
+                historique de cotisations et de votre situation personnelle compl&egrave;te. Notre
+                outil vous permet de comprendre le m&eacute;canisme, d&apos;anticiper un ordre de
+                grandeur et de poser les bonnes questions avant votre rendez-vous avec un conseiller.
+                Il ne se substitue en aucun cas &agrave; une d&eacute;marche officielle.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-slate-900">
+                &Agrave; quelle fr&eacute;quence les param&egrave;tres sont-ils mis &agrave; jour&nbsp;?
+              </h3>
+              <p className="mt-1">
+                Les param&egrave;tres de l&apos;assurance ch&ocirc;mage &eacute;voluent principalement
+                lors de la revalorisation annuelle du <strong>1er juillet</strong> (montants plancher,
+                plafond, partie fixe) et lors des grandes r&eacute;formes n&eacute;goci&eacute;es par
+                les partenaires sociaux (dur&eacute;es d&apos;indemnisation, r&egrave;gles de
+                d&eacute;gressivit&eacute;). Nous mettons &agrave; jour notre calculateur d&egrave;s
+                la publication des nouveaux param&egrave;tres par l&apos;Un&eacute;dic, g&eacute;n&eacute;ralement
+                dans les 48 heures. La date de valeur des donn&eacute;es en cours est
+                visible sur notre page{' '}
+                <Link href="/methodologie" className="text-blue-700 underline">
+                  M&eacute;thodologie
+                </Link>
+                .
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   )
