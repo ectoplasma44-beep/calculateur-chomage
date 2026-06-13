@@ -672,6 +672,9 @@ export default function ChomageInterimaire() {
           <Link href="/" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
             Calculateur ARE
           </Link>
+          <Link href="/chomage-interimaire-2000-euros" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            Int&eacute;rimaire 2&nbsp;000&nbsp;€/mois&nbsp;: chiffres exacts
+          </Link>
         </div>
       </nav>
     </main>
