@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
+import CookieBanner from "@/components/CookieBanner";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -104,6 +105,7 @@ export default function RootLayout({
         </header>
 
         <div className="flex-1">{children}</div>
+        <CookieBanner />
 
         <footer className="border-t border-slate-200 bg-white">
           <div className="mx-auto w-full max-w-4xl px-4 py-8 sm:px-6">
