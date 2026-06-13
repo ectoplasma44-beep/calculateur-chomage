@@ -70,6 +70,13 @@ export default function DemissionLegitime() {
         {' '}&rsaquo;{' '}D&eacute;mission l&eacute;gitime et ch&ocirc;mage
       </nav>
 
+      <div className="mt-4 mb-4 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm">
+        <span className="font-semibold text-amber-900">Vous avez 55&nbsp;ans et plus&nbsp;?</span>{' '}
+        <Link href="/demission-legitime-senior" className="text-amber-700 underline hover:text-amber-900">
+          Voir les sp&eacute;cificit&eacute;s senior (ARE 36&nbsp;mois, exemples chiffr&eacute;s) &rarr;
+        </Link>
+      </div>
+
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         Ch&ocirc;mage apr&egrave;s D&eacute;mission 2026&nbsp;: Les Cas de D&eacute;mission
         L&eacute;gitime
