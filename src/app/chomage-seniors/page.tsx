@@ -379,6 +379,9 @@ export default function ChomagesSeniors() {
           <Link href="/licenciement-faute-senior" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
             Licenciement faute grave senior
           </Link>
+          <Link href="/abandon-de-poste-senior" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            Abandon de poste senior
+          </Link>
           <Link href="/" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
             Calculateur ARE
           </Link>

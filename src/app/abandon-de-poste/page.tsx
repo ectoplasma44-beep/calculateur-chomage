@@ -70,6 +70,13 @@ export default function AbandonDePoste() {
         {' '}&rsaquo;{' '}Abandon de poste et ch&ocirc;mage
       </nav>
 
+      <div className="mt-4 mb-4 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm">
+        <span className="font-semibold text-amber-900">Vous avez 55&nbsp;ans et plus&nbsp;?</span>{' '}
+        <Link href="/abandon-de-poste-senior" className="text-amber-700 underline hover:text-amber-900">
+          Voir les sp&eacute;cificit&eacute;s senior (ARE 36&nbsp;mois, retraite, alternatives &agrave; l&apos;abandon) &rarr;
+        </Link>
+      </div>
+
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         Abandon de Poste et Ch&ocirc;mage 2026&nbsp;: La R&eacute;forme qui a Tout Chang&eacute;
       </h1>
