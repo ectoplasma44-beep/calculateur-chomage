@@ -62,10 +62,16 @@ export default function PageLicenciementFaute() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       <main className="mx-auto max-w-3xl px-4 py-8">
-        <div className="mb-6 rounded-xl border border-blue-200 bg-blue-50 p-4 text-sm">
+        <div className="mb-4 rounded-xl border border-blue-200 bg-blue-50 p-4 text-sm">
           <span className="font-semibold text-blue-900">Vous etes cadre&nbsp;?</span>{' '}
           <a href="/licenciement-faute-cadre" className="text-blue-700 underline hover:text-blue-900">
             Voir les sp&eacute;cificit&eacute;s cadre (clause non-concurrence, indemnit&eacute;s, prud&apos;hommes) &rarr;
+          </a>
+        </div>
+        <div className="mb-6 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm">
+          <span className="font-semibold text-amber-900">Vous avez 55&nbsp;ans et plus&nbsp;?</span>{' '}
+          <a href="/licenciement-faute-senior" className="text-amber-700 underline hover:text-amber-900">
+            Voir les sp&eacute;cificit&eacute;s senior (ARE 36&nbsp;mois, retraite, discrimination &acirc;ge) &rarr;
           </a>
         </div>
         <nav className="mb-4 text-sm text-gray-500">
