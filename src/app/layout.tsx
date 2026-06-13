@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import CookieBanner from "@/components/CookieBanner";
+import AdSenseScript from "@/components/AdSenseScript";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -104,6 +105,7 @@ export default function RootLayout({
           </div>
         </header>
 
+        <AdSenseScript />
         <div className="flex-1">{children}</div>
         <CookieBanner />
 
