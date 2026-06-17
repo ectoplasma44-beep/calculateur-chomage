@@ -675,6 +675,15 @@ export default function ChomageInterimaire() {
           <Link href="/chomage-interimaire-2000-euros" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
             Int&eacute;rimaire 2&nbsp;000&nbsp;€/mois&nbsp;: chiffres exacts
           </Link>
+          <Link href="/chomage-interimaire-1500-euros" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            Int&eacute;rimaire 1&nbsp;500&nbsp;€/mois&nbsp;: chiffres exacts
+          </Link>
+          <Link href="/rupture-conventionnelle-interimaire" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            RC int&eacute;rimaire (CDI-I)
+          </Link>
+          <Link href="/licenciement-interimaire" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            Licenciement int&eacute;rimaire (CDI-I)
+          </Link>
         </div>
       </nav>
     </main>
