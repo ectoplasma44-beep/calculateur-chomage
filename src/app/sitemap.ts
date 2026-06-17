@@ -223,6 +223,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    {
+      url: 'https://www.monchomage.fr/rupture-conventionnelle-interimaire',
+      lastModified: '2026-06-17',
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://www.monchomage.fr/licenciement-interimaire',
+      lastModified: '2026-06-17',
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://www.monchomage.fr/chomage-cadre-3000-euros',
+      lastModified: '2026-06-17',
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://www.monchomage.fr/chomage-interimaire-1500-euros',
+      lastModified: '2026-06-17',
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
     ...SALAIRES_CONFIG.map((s) => ({
       url: `https://www.monchomage.fr/chomage-salaire-${s.slug}-euros`,
       lastModified: new Date(),
