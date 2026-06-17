@@ -247,6 +247,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    {
+      url: 'https://www.monchomage.fr/licenciement-faute-cadre',
+      lastModified: '2026-06-17',
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
     ...SALAIRES_CONFIG.map((s) => ({
       url: `https://www.monchomage.fr/chomage-salaire-${s.slug}-euros`,
       lastModified: new Date(),
