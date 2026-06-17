@@ -575,6 +575,9 @@ export default function ChomageCADRE() {
           <Link href="/" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
             Calculateur ARE
           </Link>
+          <Link href="/chomage-cadre-3000-euros" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            Cadre 3&nbsp;000&nbsp;€/mois&nbsp;: chiffres exacts
+          </Link>
         </div>
       </nav>
     </main>
