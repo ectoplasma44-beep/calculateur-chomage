@@ -131,6 +131,27 @@ export default function Home() {
       </section>
 
       <section className="mt-12">
+        <h2 className="text-2xl font-bold text-slate-900">Guides pratiques</h2>
+        <div className="mt-4 flex flex-wrap gap-3">
+          <Link href="/chomage-net-brut" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            Ch&ocirc;mage net ou brut&nbsp;?
+          </Link>
+          <Link href="/temps-partiel" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            ARE &agrave; temps partiel
+          </Link>
+          <Link href="/salaire-journalier-reference" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            Salaire journalier de r&eacute;f&eacute;rence
+          </Link>
+          <Link href="/duree-indemnisation" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            Dur&eacute;e d&apos;indemnisation
+          </Link>
+          <Link href="/delai-carence-chomage" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            D&eacute;lai de carence
+          </Link>
+        </div>
+      </section>
+
+      <section className="mt-12">
         <h2 className="text-2xl font-bold text-slate-900">Comment fonctionne le calcul&nbsp;?</h2>
 
         <div className="prose-slate mt-4 space-y-4 text-slate-700">

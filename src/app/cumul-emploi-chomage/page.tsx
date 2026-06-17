@@ -325,6 +325,12 @@ export default function CumulEmploiChomage() {
           <Link href="/rupture-conventionnelle" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
             Rupture conventionnelle
           </Link>
+          <Link href="/temps-partiel" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            ARE &agrave; temps partiel
+          </Link>
+          <Link href="/chomage-net-brut" className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-blue-300 hover:text-blue-700">
+            Ch&ocirc;mage net ou brut&nbsp;?
+          </Link>
         </div>
       </nav>
     </main>
