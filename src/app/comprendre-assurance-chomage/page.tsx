@@ -12,6 +12,53 @@ export const metadata: Metadata = {
   },
 }
 
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: "Qui gère l'assurance chômage en France ?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "L'assurance chômage repose sur deux acteurs : l'Unédic, association paritaire qui fixe les règles d'indemnisation et pilote le financement, et France Travail (ex-Pôle emploi) qui inscrit les demandeurs d'emploi, calcule et verse les allocations. Toutes les démarches se font auprès de France Travail.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "Qui peut bénéficier de l'allocation chômage (ARE) ?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "Pour ouvrir des droits à l'ARE, il faut avoir travaillé au moins 130 jours (6 mois) au cours des 24 derniers mois (36 mois pour les 55 ans et plus), avoir perdu son emploi involontairement (licenciement, fin de CDD, rupture conventionnelle, fin de mission d'intérim), être inscrit comme demandeur d'emploi en France et être physiquement apte à travailler.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "Quelle est la différence entre ARE, AREF et ASS ?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "L'ARE (aide au retour à l'emploi) est l'allocation principale versée par France Travail. L'AREF (ARE formation) remplace l'ARE pendant une formation validée, avec un plancher spécifique plus bas. L'ASS (allocation de solidarité spécifique) est une aide d'État sous conditions de ressources, versée aux demandeurs d'emploi ayant épuisé leurs droits ARE.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "Quelles sont les obligations du demandeur d'emploi pendant l'indemnisation ?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "Le demandeur d'emploi doit s'actualiser chaque mois auprès de France Travail, rechercher activement un emploi et pouvoir en justifier, répondre aux convocations de son conseiller, accepter les offres raisonnables d'emploi, et déclarer tout changement de situation. Les manquements peuvent entraîner une radiation et la suspension de l'allocation.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "Quand les paramètres de l'allocation chômage sont-ils revalorisés ?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "L'Unédic revalorise chaque année en principe au 1er juillet les paramètres de l'allocation : partie fixe, allocation minimale, seuil de dégressivité et allocation minimale de formation. La revalorisation s'applique aux allocations en cours de versement, pas seulement aux nouveaux droits.",
+      },
+    },
+  ],
+}
+
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -34,10 +81,8 @@ const breadcrumbJsonLd = {
 export default function ComprendreAssuranceChomage() {
   return (
     <main className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       <nav aria-label="Fil d'Ariane" className="text-sm text-slate-500">
         <Link href="/" className="hover:underline">
