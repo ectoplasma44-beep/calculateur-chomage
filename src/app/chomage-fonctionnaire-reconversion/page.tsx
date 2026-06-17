@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Fonctionnaire demissionnaire : l'ARE est possible en 2025",
+  title: "Fonctionnaire demissionnaire : l'ARE est possible en 2026",
   description: "Fonctionnaire qui demissionne pour une reconversion ? Conditions ARE, dossier a deposer et droits CPF expliques etape par etape.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-fonctionnaire-reconversion' },
 }
@@ -71,7 +71,7 @@ export default function ChomagefonctionnaireReconversion() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Ch&ocirc;mage fonctionnaire en reconversion&nbsp;: ARE, d&eacute;mission et droits 2025
+        Ch&ocirc;mage fonctionnaire en reconversion&nbsp;: ARE, d&eacute;mission et droits 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

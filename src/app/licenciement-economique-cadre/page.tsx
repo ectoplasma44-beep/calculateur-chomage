@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Licenciement eco cadre 2025 : ARE, PSE et conge reclassement",
+  title: "Licenciement eco cadre 2026 : ARE, PSE et conge reclassement",
   description: "Cadre licencie pour motif economique ? Indemnite legale, conge de reclassement et chronologie complete jusqu'au 1er versement ARE.",
   alternates: {
     canonical: 'https://www.monchomage.fr/licenciement-economique-cadre',
@@ -120,7 +120,7 @@ export default function LicenciementEconomiqueCadre() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Licenciement &eacute;conomique cadre&nbsp;: ARE, indemnit&eacute;s et droits 2025
+        Licenciement &eacute;conomique cadre&nbsp;: ARE, indemnit&eacute;s et droits 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

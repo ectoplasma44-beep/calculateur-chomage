@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage apres conge maternite 2025 : SJR neutralise",
+  title: "Chomage apres conge maternite 2026 : SJR neutralise",
   description: "Au chomage apres un conge maternite ? Votre SJR est calcule sans la periode de conge — souvent plus favorable. Exemple chiffre.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-apres-conge-maternite' },
 }
@@ -96,7 +96,7 @@ export default function ChomageApresCongeMaternite() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Ch&ocirc;mage apr&egrave;s cong&eacute; maternit&eacute;&nbsp;: ARE, SJR neutralis&eacute; et droits 2025
+        Ch&ocirc;mage apr&egrave;s cong&eacute; maternit&eacute;&nbsp;: ARE, SJR neutralis&eacute; et droits 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

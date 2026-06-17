@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "RC cadre 2025 : ARE, franchise et delai de carence reels",
+  title: "RC cadre 2026 : ARE, franchise et delai de carence reels",
   description: "Rupture conventionnelle en tant que cadre ? Calcul franchise sur indemnite supra-legale, delai de carence exact. Exemple pour 5 000 euros/mois.",
   alternates: {
     canonical: 'https://www.monchomage.fr/rupture-conventionnelle-cadre',
@@ -115,7 +115,7 @@ export default function RuptureConventionnelleCadre() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Rupture conventionnelle cadre&nbsp;: ARE, indemnit&eacute;s et d&eacute;lai de carence 2025
+        Rupture conventionnelle cadre&nbsp;: ARE, indemnit&eacute;s et d&eacute;lai de carence 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Licenciement intérimaire 2025 : CDI-I, motifs et ARE",
+  title: "Licenciement intérimaire 2026 : CDI intérimaire, motifs et ARE",
   description: "Intérimaire en CDI licencié ? Motifs possibles, indemnités et calcul ARE expliqués. Distinction avec la fin de mission classique.",
   alternates: { canonical: 'https://www.monchomage.fr/licenciement-interimaire' },
 }
@@ -82,7 +82,7 @@ export default function PageLicenciementInterimaire() {
         </nav>
 
         <h1 className="text-3xl font-bold text-slate-900">
-          Licenciement int&eacute;rimaire&nbsp;: CDI-I, motifs et ARE 2025
+          Licenciement int&eacute;rimaire&nbsp;: CDI int&eacute;rimaire, motifs et ARE 2026
         </h1>
 
         {/* 1. Introduction */}

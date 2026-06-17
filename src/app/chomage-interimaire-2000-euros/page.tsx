@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chômage intérimaire 2 000 €/mois 2025 : ARE calculée",
+  title: "Chômage intérimaire 2 000 €/mois 2026 : ARE calculée",
   description: "Intérimaire avec un salaire moyen de 2 000 €/mois ? ARE calculée avec primes de précarité et CP inclus. Montant exact et durée.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-interimaire-2000-euros' },
 }
@@ -111,7 +111,7 @@ export default function PageCHomoInterimaire2000() {
         </nav>
 
         <h1 className="text-3xl font-bold text-slate-900">
-          Ch&ocirc;mage int&eacute;rimaire {euros(EX_SALAIRE_MENSUEL)}&nbsp;brut&nbsp;: ARE, SJR et dur&eacute;e 2025
+          Ch&ocirc;mage int&eacute;rimaire {euros(EX_SALAIRE_MENSUEL)}&nbsp;brut&nbsp;: ARE, SJR et dur&eacute;e 2026
         </h1>
 
         {/* 1. Introduction */}

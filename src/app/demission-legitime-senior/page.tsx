@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Démission légitime senior 2025 : ARE après 55 ans possible",
+  title: "Démission légitime senior 2026 : ARE après 55 ans possible",
   description: "Senior qui démissionne pour motif légitime ? ARE maintenue jusqu'à 36 mois. Cas reconnus, dossier et calcul expliqués avec exemples.",
   alternates: { canonical: 'https://www.monchomage.fr/demission-legitime-senior' },
 }
@@ -87,7 +87,7 @@ export default function PageDemissionLegitimeSenior() {
         </nav>
 
         <h1 className="text-3xl font-bold text-slate-900">
-          D&eacute;mission l&eacute;gitime senior&nbsp;: ARE {dureeMois57}&nbsp;mois et cas reconnus 2025
+          D&eacute;mission l&eacute;gitime senior&nbsp;: ARE {dureeMois57}&nbsp;mois et cas reconnus 2026
         </h1>
 
         {/* 1. Introduction */}

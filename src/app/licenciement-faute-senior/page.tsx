@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Licenciement faute grave senior 2025 : ARE 36 mois et recours",
+  title: "Licenciement faute grave senior 2026 : ARE 36 mois et recours",
   description: "Senior licencié pour faute grave après 55 ans ? ARE jusqu'à 36 mois maintenue, recours prud'hommes et impact retraite expliqués.",
   alternates: { canonical: 'https://www.monchomage.fr/licenciement-faute-senior' },
 }
@@ -93,7 +93,7 @@ export default function PageLicenciementFauteSenior() {
         </nav>
 
         <h1 className="text-3xl font-bold text-slate-900">
-          Licenciement faute grave senior&nbsp;: ARE 36&nbsp;mois et recours 2025
+          Licenciement faute grave senior&nbsp;: ARE 36&nbsp;mois et recours 2026
         </h1>
 
         {/* 1. Introduction */}

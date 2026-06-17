@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage RQTH 2025 : +25 % de duree, comment en profiter",
-  description: "Travailleur handicape au chomage ? Duree ARE allongee, cumul AAH et aides AGEFIPH expliques avec exemples chiffres 2025.",
+  title: "Chomage RQTH 2026 : +25 % de duree, comment en profiter",
+  description: "Travailleur handicape au chomage ? Duree ARE allongee, cumul AAH et aides AGEFIPH expliques avec exemples chiffres 2026.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-rqth' },
 }
 
@@ -77,7 +77,7 @@ export default function ChomageRQTH() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Ch&ocirc;mage RQTH&nbsp;: droits all&ocirc;ng&eacute;s et sp&eacute;cificit&eacute;s 2025
+        Ch&ocirc;mage RQTH&nbsp;: droits all&ocirc;ng&eacute;s et sp&eacute;cificit&eacute;s 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

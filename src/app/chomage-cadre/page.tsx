@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage cadre 2025 : combien touchez-vous vraiment ?",
+  title: "Chomage cadre 2026 : combien touchez-vous vraiment ?",
   description: "Cadre licencie ou en RC ? Calculez votre ARE exacte : SJR, degressivite a 7 mois, plafond. Exemple chiffre pour 5 000 euros/mois.",
   alternates: {
     canonical: 'https://www.monchomage.fr/chomage-cadre',
@@ -102,7 +102,7 @@ export default function ChomageCADRE() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Ch&ocirc;mage des cadres&nbsp;: calcul ARE, d&eacute;gressivit&eacute; et sp&eacute;cificit&eacute;s 2025
+        Ch&ocirc;mage des cadres&nbsp;: calcul ARE, d&eacute;gressivit&eacute; et sp&eacute;cificit&eacute;s 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

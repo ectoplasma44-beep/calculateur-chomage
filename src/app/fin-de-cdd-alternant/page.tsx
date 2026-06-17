@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Fin d'alternance 2025 : vos droits ARE en detail",
+  title: "Fin d'alternance 2026 : vos droits ARE en detail",
   description: "Contrat d'alternance termine ? Montant ARE, duree selon anciennete et demarches Pole Emploi. Droits souvent ignores des alternants.",
   alternates: { canonical: 'https://www.monchomage.fr/fin-de-cdd-alternant' },
 }
@@ -99,7 +99,7 @@ export default function FinDeCDDAlternant() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Fin de contrat alternance&nbsp;: ARE, d&eacute;marches et droits 2025
+        Fin de contrat alternance&nbsp;: ARE, d&eacute;marches et droits 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

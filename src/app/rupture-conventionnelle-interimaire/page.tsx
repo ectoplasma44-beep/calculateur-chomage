@@ -4,8 +4,8 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "RC intérimaire 2025 : possible ? Conditions et ARE",
-  description: "Un intérimaire peut-il signer une rupture conventionnelle ? Conditions, calcul ARE et alternatives expliqués avec exemples chiffrés 2025.",
+  title: "Rupture conventionnelle intérimaire 2026 : possible ? Conditions et ARE",
+  description: "Un intérimaire peut-il signer une rupture conventionnelle ? Conditions, calcul ARE et alternatives expliqués avec exemples chiffrés 2026.",
   alternates: { canonical: 'https://www.monchomage.fr/rupture-conventionnelle-interimaire' },
 }
 
@@ -90,7 +90,7 @@ export default function PageRCInterimaire() {
         </nav>
 
         <h1 className="text-3xl font-bold text-slate-900">
-          Rupture conventionnelle int&eacute;rimaire&nbsp;: conditions et ARE 2025
+          Rupture conventionnelle int&eacute;rimaire&nbsp;: conditions et ARE 2026
         </h1>
 
         {/* 1. Introduction */}

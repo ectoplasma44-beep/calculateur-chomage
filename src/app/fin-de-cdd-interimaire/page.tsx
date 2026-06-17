@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Fin de mission interim 2025 : ARE des la fin du contrat",
+  title: "Fin de mission interim 2026 : ARE des la fin du contrat",
   description: "Fin de mission d'interim ? ARE ouverte sans delai de carence motif. SJR calcule sur missions + primes. Montants et duree expliques.",
   alternates: { canonical: 'https://www.monchomage.fr/fin-de-cdd-interimaire' },
 }
@@ -98,7 +98,7 @@ export default function FinDeCDDInterimaire() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Fin de mission int&eacute;rim&nbsp;: ARE, droits et calcul 2025
+        Fin de mission int&eacute;rim&nbsp;: ARE, droits et calcul 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

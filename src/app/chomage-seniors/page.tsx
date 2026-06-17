@@ -5,7 +5,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage senior 2025 : jusqu'a 36 mois d'ARE apres 55 ans",
+  title: "Chomage senior 2026 : jusqu'a 36 mois d'ARE apres 55 ans",
   description: "55 ans et plus au chomage ? Duree ARE allongee, impact retraite et arbitrage RC expliques. Calculez vos droits avec exemples.",
   alternates: {
     canonical: 'https://www.monchomage.fr/chomage-seniors',

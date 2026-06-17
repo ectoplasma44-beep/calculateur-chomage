@@ -5,7 +5,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros, pourcent } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Licenciement economique 2025 : ARE, indemnites et PSE",
+  title: "Licenciement economique 2026 : ARE, indemnites et PSE",
   description: "Licencie pour motif economique ? Calcul indemnite legale, ARE et conge de reclassement expliques. Exemple chiffre selon anciennete.",
   alternates: {
     canonical: 'https://www.monchomage.fr/licenciement-economique',

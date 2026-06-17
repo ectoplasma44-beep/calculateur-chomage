@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Abandon de poste senior 2025 : ARE possible après 55 ans ?",
+  title: "Abandon de poste senior 2026 : ARE possible après 55 ans ?",
   description: "Senior qui abandonne son poste ? Depuis 2023, présomption de démission — mais des recours existent. ARE et impact retraite expliqués.",
   alternates: { canonical: 'https://www.monchomage.fr/abandon-de-poste-senior' },
 }
@@ -82,7 +82,7 @@ export default function PageAbandonDePosteSenior() {
         </nav>
 
         <h1 className="text-3xl font-bold text-slate-900">
-          Abandon de poste senior&nbsp;: ARE, pr&eacute;somption de d&eacute;mission et recours 2025
+          Abandon de poste senior&nbsp;: ARE, pr&eacute;somption de d&eacute;mission et recours 2026
         </h1>
 
         {/* 1. Introduction */}

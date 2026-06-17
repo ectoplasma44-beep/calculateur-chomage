@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chômage cadre 4 000 €/mois 2025 : montant ARE exact",
+  title: "Chômage cadre 4 000 €/mois 2026 : montant ARE exact",
   description: "Cadre à 4 000 €/mois au chômage ? ARE mensuelle, dégressivité et durée calculées. Exemple chiffré complet selon ancienneté.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-cadre-4000-euros' },
 }
@@ -99,7 +99,7 @@ export default function PageChomoCadre4000() {
         </nav>
 
         <h1 className="text-3xl font-bold text-slate-900">
-          Ch&ocirc;mage cadre {euros(SALAIRE)}&nbsp;brut&nbsp;: ARE, d&eacute;gressivit&eacute; et dur&eacute;e 2025
+          Ch&ocirc;mage cadre {euros(SALAIRE)}&nbsp;brut&nbsp;: ARE, d&eacute;gressivit&eacute; et dur&eacute;e 2026
         </h1>
 
         {/* 1. Introduction */}

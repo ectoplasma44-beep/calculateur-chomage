@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage alternant 2025 : avez-vous droit a l'ARE ?",
+  title: "Chomage alternant 2026 : avez-vous droit a l'ARE ?",
   description: "Fin de contrat d'alternance ou d'apprentissage ? Conditions, montant ARE et duree expliques. Droits souvent ignores — verifiez les votres.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-alternant-apprenti' },
 }
@@ -75,7 +75,7 @@ export default function ChomageAlternantApprenti() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Ch&ocirc;mage alternant et apprenti&nbsp;: droits ARE 2025
+        Ch&ocirc;mage alternant et apprenti&nbsp;: droits ARE 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

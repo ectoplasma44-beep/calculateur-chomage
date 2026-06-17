@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Licenciement faute grave cadre 2025 : avez-vous droit a l'ARE ?",
+  title: "Licenciement faute grave cadre 2026 : avez-vous droit a l'ARE ?",
   description: "Cadre licencie pour faute grave ou lourde ? Conditions ARE, perte des indemnites et recours expliques. Ce que peu de cadres savent.",
   alternates: { canonical: 'https://www.monchomage.fr/licenciement-faute-cadre' },
 }
@@ -90,7 +90,7 @@ export default function LicenciementFauteCadre() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Licenciement faute grave cadre&nbsp;: ARE, indemnit&eacute;s et recours 2025
+        Licenciement faute grave cadre&nbsp;: ARE, indemnit&eacute;s et recours 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

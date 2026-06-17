@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chomage interimaire 2025 : calcul ARE apres mission",
+  title: "Chomage interimaire 2026 : calcul ARE apres mission",
   description: "Fin de mission d'interim ? Votre ARE calculee sur vos missions effectives + primes de precarite. Exemple complet avec montants.",
   alternates: {
     canonical: 'https://www.monchomage.fr/chomage-interimaire',
@@ -116,7 +116,7 @@ export default function ChomageInterimaire() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Ch&ocirc;mage int&eacute;rimaire&nbsp;: calcul ARE et droits apr&egrave;s mission 2025
+        Ch&ocirc;mage int&eacute;rimaire&nbsp;: calcul ARE et droits apr&egrave;s mission 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

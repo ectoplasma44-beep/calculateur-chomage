@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "RC pendant conge parental 2025 : ARE et SJR neutralise",
+  title: "Rupture conventionnelle pendant conge parental 2026 : ARE et SJR neutralise",
   description: "Rupture conventionnelle pendant ou apres un conge parental ? SJR neutralise, franchise recalculee. Ce que votre employeur ne vous dit pas.",
   alternates: { canonical: 'https://www.monchomage.fr/rupture-conventionnelle-conge-parental' },
 }
@@ -99,7 +99,7 @@ export default function RuptureConventionnelleCongeParental() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Rupture conventionnelle cong&eacute; parental&nbsp;: ARE, SJR neutralis&eacute; et droits 2025
+        Rupture conventionnelle cong&eacute; parental&nbsp;: ARE, SJR neutralis&eacute; et droits 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">

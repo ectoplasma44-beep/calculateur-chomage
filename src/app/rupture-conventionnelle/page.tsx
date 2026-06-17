@@ -5,7 +5,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros, pourcent, dateFr } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Rupture conventionnelle 2025 : calcul ARE et delai de carence",
+  title: "Rupture conventionnelle 2026 : calcul ARE et delai de carence",
   description: "Combien touchez-vous en ARE apres une rupture conventionnelle ? Calcul SJR, franchise et 1er versement. Simulateur + exemple chiffre.",
   alternates: {
     canonical: 'https://www.monchomage.fr/rupture-conventionnelle',

@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Chômage cadre 5 000 €/mois 2025 : combien touchez-vous ?",
+  title: "Chômage cadre 5 000 €/mois 2026 : combien touchez-vous ?",
   description: "Cadre avec un salaire de 5 000 €/mois ? Calculez votre ARE exacte : 2 850 €/mois jusqu'au mois 7, puis dégressivité. Détail complet.",
   alternates: { canonical: 'https://www.monchomage.fr/chomage-cadre-5000-euros' },
 }
@@ -102,7 +102,7 @@ export default function PageChomoCadre5000() {
         </nav>
 
         <h1 className="text-3xl font-bold text-slate-900">
-          Ch&ocirc;mage cadre {euros(SALAIRE)}&nbsp;brut&nbsp;: ARE, d&eacute;gressivit&eacute; et dur&eacute;e 2025
+          Ch&ocirc;mage cadre {euros(SALAIRE)}&nbsp;brut&nbsp;: ARE, d&eacute;gressivit&eacute; et dur&eacute;e 2026
         </h1>
 
         {/* 1. Introduction */}

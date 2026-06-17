@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import CalculateurARE from '@/components/CalculateurARE'
 
 export const metadata: Metadata = {
-  title: "Licenciement faute grave 2025 : perdez-vous vraiment l'ARE ?",
+  title: "Licenciement faute grave 2026 : perdez-vous vraiment l'ARE ?",
   description: "Licencie pour faute grave ou lourde ? Conditions ARE, perte des indemnites et recours aux prud'hommes expliques clairement.",
   alternates: { canonical: "https://www.monchomage.fr/licenciement-faute" },
 }

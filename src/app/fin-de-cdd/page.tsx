@@ -5,7 +5,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros, pourcent } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Fin de CDD 2025 : ARE, montant et delai de carence",
+  title: "Fin de CDD 2026 : ARE, montant et delai de carence",
   description: "CDD termine ? Calculez votre ARE, duree d'indemnisation et carence en 2 minutes. Exemple chiffre inclus.",
   alternates: {
     canonical: 'https://www.monchomage.fr/fin-de-cdd',

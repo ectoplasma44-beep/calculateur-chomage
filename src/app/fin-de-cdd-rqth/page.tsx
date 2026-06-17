@@ -4,7 +4,7 @@ import { ARE_PARAMS } from '@/lib/are-parametres'
 import { euros } from '@/lib/format'
 
 export const metadata: Metadata = {
-  title: "Fin de CDD RQTH 2025 : duree ARE allongee automatiquement",
+  title: "Fin de CDD RQTH 2026 : duree ARE allongee automatiquement",
   description: "CDD termine avec une RQTH ? Duree ARE allongee de 25 %, aides AGEFIPH et demarches Pole Emploi expliquees. Verifiez vos droits.",
   alternates: { canonical: 'https://www.monchomage.fr/fin-de-cdd-rqth' },
 }
@@ -88,7 +88,7 @@ export default function FinDeCDDRQTH() {
       </nav>
 
       <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Fin de CDD RQTH&nbsp;: ARE, dur&eacute;e all&ocirc;ng&eacute;e et droits 2025
+        Fin de CDD RQTH&nbsp;: ARE, dur&eacute;e all&ocirc;ng&eacute;e et droits 2026
       </h1>
 
       <div className="mt-8 space-y-10 text-slate-700">
